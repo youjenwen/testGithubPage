@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState } from 'react';
 
 const Toggle = () => {
   const [isOn, setIsOn] = useState<boolean>(false);
@@ -8,7 +8,7 @@ const Toggle = () => {
         setIsOn(!isOn);
       }}
     >
-      {isOn ? "ON" : "OFF"}
+      {isOn ? 'ON' : 'OFF'}
     </button>
   );
 };

@@ -1,5 +1,5 @@
-import React from "react";
-import Toggle from "./components/toggle";
+import React from 'react';
+import Toggle from './components/toggle';
 
 function App() {
   return (
